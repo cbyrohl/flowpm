@@ -628,7 +628,7 @@ def odesolve_func(a, **kwcosmo):
   }
 
 
-def maybe_compute_ODE(cosmo, log10_amin=-2, steps=256):
+def maybe_compute_ODE(cosmo, log10_amin=-2.3, steps=256):
   """
   Either computes or returns the cached ODE solution
   """
